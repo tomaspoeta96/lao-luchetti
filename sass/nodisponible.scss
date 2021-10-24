@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import 'header.scss';
+@import 'fonts.scss';
+@import 'sidebar.scss';
+@import 'footer.scss';
+
+.body-img {
+	width: 100%;
+	min-height: 500px;
+}
+.error{
+	position: absolute;
+	width: 60%;
+	background-color: #315c95;
+	text-align: center;
+	left: 20%;
+	padding: 10px;
+	top: 30%;
+	color: white;
+	border-radius: 15px;
+}
+
+.error h1 {
+	font-family: roboto_bold;
+	font-size: 50px;
+}
+
+.error h2 {
+	font-family: roboto_light;
+	font-size: 40px;
+}
+
+@media only screen and(max-width: 414px) {
+.error{
+	width: 92%;
+	padding: 10px;
+	left: 0;
+	top: 30%;
+	color: white;
+	border-radius: 15px;
+}
+
+.error h1 {
+	font-size: 40px;
+}
+
+.error h2 {
+	font-size: 30px;
+}
+
+}

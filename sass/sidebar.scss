@@ -1,0 +1,29 @@
+@media screen and (max-width: 413px){
+	.side-bar {
+		display: none;
+	}	
+}
+
+
+@media screen and (min-width: 413px){
+
+	.side-bar {
+		position: fixed;
+		display: block;
+		background-color: #E0E0E0;
+		width: 50px;
+		top: 40%;
+		right: 0;
+		z-index: 100;
+		padding: 5px 0;
+		border-radius: 15px 0 0 15px;
+		box-shadow: 5px 7px 25px rgb(150,150,150)
+	}
+	.side-bar-icon-link{
+			display: inline-block;
+			margin-left: 5px;
+		}
+	.side-bar-icon{
+		width: 40px;
+	}
+}

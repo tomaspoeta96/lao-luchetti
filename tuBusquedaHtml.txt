@@ -1,0 +1,23 @@
+<section class="tubusqueda">
+		<h1 class="tubusqueda-title">Tasaciones</h1>		
+		<p class="tubusqueda-subt"><b>Solicita tu tasación y encontra tu próxima vivienda, confía en los que saben!</b></p>
+		<p class="tubusqueda-subt">Como tasamos tu propiedad?</p>
+		<p class="tubusqueda-subt">Tasaciones profesionales e inmediatas y asesoramiento personalizado.</p>
+		<p class="tubusqueda-subt">En Lao Luchetti nos caracterizamos por trabajar cada una de las propiedades como si fuera la única. Nos basamos en precios reales, para de esa manera tener competitividad efectiva en el mercado.</p>
+		<p class="tubusqueda-subt">No dudes en llamarnos, al menos para tener la tasación de <b>una firma seria</b> y con trayectoria en el mercado.</p>
+		<div class="tubusqueda-container">
+			<form method="POST">
+				<input type="textarea" name="" placeholder="Nombre y apellido" class="tubusqueda-input">
+				<input type="textarea" name="" placeholder="Teléfono" class="tubusqueda-input">
+				<input type="email" name="" placeholder="Mail" class="tubusqueda-input">
+				<div class="tubusqueda-subcontainer">
+					<label class="tubusqueda-check"><input type="checkbox" name="" value="" class="tubusqueda-check">Compra</label>
+					<label class="tubusqueda-check"><input type="checkbox" name="" value="" class="tubusqueda-check">Venta</label>
+					<label class="tubusqueda-check"><input type="checkbox" name="" value="" class="tubusqueda-check">Alquiler</label>
+					<label class="tubusqueda-check"><input type="checkbox" name="" value="" class="tubusqueda-check">Tasación</label>
+				</div>
+				<textarea class="tubusqueda-comments" placeholder="Comentarios"></textarea>
+				<input type="submit" name="" value="ENVIAR" class="tubusqueda-submit">
+			</form>
+		</div>
+	</section>

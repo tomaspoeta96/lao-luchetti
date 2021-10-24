@@ -1,0 +1,65 @@
+.staff {
+	margin-bottom: 40px;
+	width: 90%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 0 0 5%;
+}
+
+.nosotros-title, .staff-title {
+	font-size: 28px;
+	padding-bottom: 10px;
+	color: $celeste;
+	font-family: roboto_bold;
+	padding: 30px 0 0 5%;
+	background-color: white;
+	margin-bottom: 0;
+	@media screen and (max-width: $celu_res) {
+		font-size: 20px;
+	}
+}
+
+.staff-title{
+	color: $azul;
+	padding: 0px 0px 20px 5%;
+}
+
+.staff-individual {
+	width: 30%;
+	min-width: 200px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.staff-individual-img {	
+	width: 100%;
+	z-index: -1;
+}
+
+.staff-individual-name {
+	display: block;
+	background-color: $azul;
+	width: 70%;
+	color: white;
+	text-align: center;
+	margin: auto;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	min-height: 30px;
+	border-radius: 10px;
+	padding: 5px 0 2px 0;
+	font-family: roboto_regular;
+
+}
+.staff-individual-role{
+	text-align: center;
+	font-family: roboto_bold;
+	color: $azul;
+}
+.staff-individual-description {
+	color: $azul;
+	font-family: roboto_regular;
+}
+

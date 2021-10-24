@@ -1,0 +1,47 @@
+
+.emprendimiento-tag {
+	background-color: #fff594;
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+	color: $azul;
+	font-family: roboto_bold;
+	font-size: 12px;
+	text-align: center;
+	left: 5%;
+	top: -65px;
+	position: absolute;
+	-ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Safari */
+    transform: rotate(-25deg);
+
+    @media only screen and (min-width: 415px) and (max-width: 795px){
+    	top: -50px;
+    }
+
+    @media only screen and (min-width: 796px) and (max-width: 935px){
+    	top: -50px;
+    	left: 10%;
+    }
+    @media only screen and (min-width: 936px){
+    	top: -50px;
+    	left: 15%;
+    	width: 100px;
+		height: 100px;
+		font-size: initial;
+    }
+}
+
+#taginit {
+	margin-top: 18px;
+}
+.emprendimiento-tag-line {
+	width: 20px;
+	height: 3px;
+	background-color: $azul;
+	margin: 5px auto;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+$azul: #262262;
+$celeste: #0091D0;
+$celesteClaro: #7BB7E4;
+
+$celu_res: 376px;
+$celu_res1: 576px;
+
+
+
+
+.prop-c-slider {
+	margin: auto;
+	margin-top: 30px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	max-width: 800px;
+}
+
+.prop-slider {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+}
+.prop-slider section {
+	width: 100%;
+	position: relative;
+}
+
+.prop-slider img, .prop-slider video {
+	width: 100%;
+	height: 100%;
+}
+.prop-btn-prev, .prop-btn-next {
+	width: 50px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	font-family:  monospace;
+	text-align: center;
+	top: 50%;
+	z-index: 1;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.prop-btn-prev{
+	left: 20px;
+	@media screen and (max-width: $celu_res1){
+		left: 0;
+	}
+}
+
+.prop-btn-next {
+	right: 20px;
+	@media screen and (max-width: $celu_res1){
+		right: 0;
+	}
+}
+
+
+/*end slider*/

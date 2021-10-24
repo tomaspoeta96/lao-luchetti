@@ -1,0 +1,10 @@
+<div class="emprendimiento-tag">
+	<div class="emprendimiento-tag-line" id="taginit"></div>
+		<p class="emprendimiento-tag-name">TODO<br>VENDIDO</p>
+	<div class="emprendimiento-tag-line"></div>
+</div>
+<div class="emprendimiento-tag">
+	<div class="emprendimiento-tag-line" id="taginit"></div>
+		<p class="emprendimiento-tag-name">ULTIMAS<br>UNIDADES</p>
+	<div class="emprendimiento-tag-line"></div>
+</div>

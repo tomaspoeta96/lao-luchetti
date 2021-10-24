@@ -1,0 +1,73 @@
+<h1 class="staff-title">Staff</h1>
+	<section class="staff">
+		<div class="staff-individual">
+			<img src="../imgs/avatar.jpg" class="staff-individual-img">
+			<h3 class="staff-individual-name">Juan Perez</h3>
+			<h4 class="staff-individual-role">Barrendero</h4>
+			<p class="staff-individual-description">Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos</p>
+		</div>
+		<div class="staff-individual">
+			<img src="../imgs/avatar.jpg" class="staff-individual-img">
+			<h3 class="staff-individual-name">Juan Perez</h3>
+			<h4 class="staff-individual-role">Barrendero</h4>
+			<p class="staff-individual-description">Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos</p>
+		</div>
+		<div class="staff-individual">
+			<img src="../imgs/avatar.jpg" class="staff-individual-img">
+			<h3 class="staff-individual-name">Juan Perez</h3>
+			<h4 class="staff-individual-role">Barrendero</h4>
+			<p class="staff-individual-description">Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos</p>
+		</div>
+		<div class="staff-individual">
+			<img src="../imgs/avatar.jpg" class="staff-individual-img">
+			<h3 class="staff-individual-name">Juan Perez</h3>
+			<h4 class="staff-individual-role">Barrendero</h4>
+			<p class="staff-individual-description">Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos</p>
+		</div>
+		<div class="staff-individual">
+			<img src="../imgs/avatar.jpg" class="staff-individual-img">
+			<h3 class="staff-individual-name">Placente hidalgo hernandez</h3>
+			<h4 class="staff-individual-role">El gran big gerente de ventas</h4>
+			<p class="staff-individual-description">Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos.</p>
+		</div>
+		<div class="staff-individual">
+			<img src="../imgs/avatar.jpg" class="staff-individual-img">
+			<h3 class="staff-individual-name">Placente hidalgo hernandez</h3>
+			<h4 class="staff-individual-role"></h4>
+			<p class="staff-individual-description">Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.</p>
+		</div>
+		<div class="staff-individual">
+			<img src="../imgs/avatar.jpg" class="staff-individual-img">
+			<h3 class="staff-individual-name">Placente hidalgo hernandez</h3>
+			<h4 class="staff-individual-role">El gran big gerente de ventas</h4>
+			<p class="staff-individual-description">Nos destacamos y somos reconocidos
+gracias nuestra intermediación en negocios
+que abarcan toda la Capital Federal.Nos destacamos y somos reconocidos.</p>
+		</div>
+	</section>
+
+	<h1 class="staff-title">Socios Estrategicos</h1><!--Usar misma estructura que staff para socios-->

@@ -1,0 +1,307 @@
+@import 'fonts.scss';
+@import 'header.scss';
+@import 'sidebar.scss';
+@import 'sliderprop.scss';
+@import 'footer.scss';
+
+*  {
+	padding: 0;
+	margin: 0;
+}
+
+
+.prop {
+	margin-top: 80px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.prop-title {
+	font-size: 28px;
+	padding-bottom: 10px;
+	color: $celeste;
+	font-family: roboto_bold;
+	padding: 30px 0 0 5%;
+	background-color: white;
+	margin-bottom: 0;
+	@media screen and (max-width: $celu_res) {
+		font-size: 20px;
+	}
+}
+
+.prop-subtitle {
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: $celeste;
+	display: inline-block;
+	padding: 5px 10px;
+	color: white;
+	border-radius: 8px;
+	margin-top: 20px;
+	font-family: roboto_light;
+	text-align: center;
+}
+
+.prop-name {
+	margin-top: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: $azul;
+	font-family: roboto;
+}
+.prop-name span{
+	font-family: roboto_light;
+}
+
+
+
+.prop-table-title, .prop-description-title, .prop-iframe-title {
+	margin-left: 5%;
+	margin-top: 20px;
+	color: $azul;
+	font-family: roboto_thin;
+}
+
+.prop-table-container {
+	margin: auto;
+	margin-top: 20px;
+	width: 90%;
+	background-color: #7ab8e0;
+	border-radius: 22px;
+	padding: 15px;
+	
+}
+.prop-table {
+	width: 100%;
+}
+
+.prop_table-data {
+	border-top: 1px solid white;
+	padding: 10px 15px;
+	color: white;
+	font-family: roboto_regular;
+	list-style-type: none;
+}
+
+#prop_table-data--last {
+	color: transparent;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	border-bottom: none;
+}
+
+
+.prop_table-data span {
+	color: black;
+	float: right;
+}
+
+.prop_table-data:last-child {
+	font-family: roboto_light;
+	border-bottom: 1px solid white;
+}
+
+.prop_table-data:last-child span {
+	font-family: roboto_regular;
+	color: black;
+}
+
+.prop-description {
+	font-family: roboto_regular;
+	margin: 20px 5% 0;
+}
+
+.contactar {
+	margin: auto;
+	margin-top: 30px;
+	background-color: $azul;
+	color: white;
+	font-family: roboto_light;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	max-width: 250px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,0.3);
+	position: fixed;
+	top: -10px;
+	width: 100%;
+	height: 102%;
+	z-index: 101;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.contacto {
+	width: 90%;
+	height: 500px;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	margin-top: calc(5%);
+	padding-top: 40px;
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+	visibility: hidden;
+	opacity: 0;
+}
+
+.contacto-x {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 30px;
+	cursor: pointer;
+}
+
+.contacto-title{
+	color: $celeste;
+	font-family: roboto;
+	text-align: center;
+	font-size: 30px;
+}
+.contacto-subtitle{
+	color: $azul;
+	text-align: center;
+	font-family: roboto_thin;
+	font-size: 22px;
+}
+
+.contacto form input, .contacto form textarea {
+	display: block;
+	margin: auto;
+	margin-top: 17px;
+	width: 78%;
+	height: 30px;
+	background-color: #DDD;
+	border: none;
+	padding: 5px 15px;
+	font-family: roboto;
+}
+
+.contacto form input[type="submit"] {
+	background-color: $azul;
+	color: white;
+	font-family: roboto_light;
+	width: 60%;
+	min-width: 130px;
+	height: 40px;
+	font-size: 16px;
+}
+
+.contacto form textarea{
+	height: 70px;
+	resize: none;
+}
+
+.contacto form input::placeholder, .contacto form textarea::placeholder{
+	color: black;
+	font-family: roboto_light;
+	font-size: 15px;
+}
+
+.contacto form input:focus{
+	outline: none;
+}
+
+.prop_table-break{
+	display: none;}
+
+.prop-iframe {
+	display: block;
+	margin: auto;
+	border: none;
+	width: 90%;
+	max-width: 800px;
+	min-height: 220px;
+	margin-top: 30px;
+	@media only screen and (min-width: 415px) {
+		height: 400px;
+	}
+
+}
+
+@media only screen and (min-width: 972px) {
+
+	.prop-title{
+		font-size: 38px;
+		padding-left: 7%;
+	}
+
+	.prop-subtitle {
+		margin-left: 7%;
+	}
+
+	.prop-name{
+		font-size: 34px;
+		margin-left: 7%;
+	}
+	.prop-table-title{
+		margin-top: 30px;
+		margin-left: 7%;
+		font-size: 26px;
+	}
+	.prop-table-container{
+		font-size: 0.8em; 
+	    width: 82%; 
+	    text-align: left;
+	    margin: 30px auto;
+	    padding: 2%;
+	}
+	.prop-table-col {
+		-moz-column-width: 22em;
+    	-webkit-column-width: 22em; 
+    	column-width: 22em;
+    	-webkit-column-span: 1;
+	}
+	.prop_table {
+		margin: 0;
+    	padding: 0;
+    	list-style-type: none;
+	}
+
+	.prop_table-data:first-child {
+		margin-top: 0;
+	}
+	.prop-description-title,.prop-iframe-title{
+		margin-left: 7%;
+		font-size: 26px;	
+	}
+	.prop-description{
+		margin-left: 7%;
+		width: 86%;
+	}
+	.contactar {
+		margin: initial;
+		margin: 40px 0 120px 7%;
+	}
+
+	.contacto {
+		width: 55%;
+		padding: 40px;
+	}
+
+	.contacto-title {
+		text-align: left;
+		font-size: 38px;
+		line-height: 10px;
+	}
+	.contacto-subtitle{
+		text-align: left;
+		margin-top: 20px;
+		font-size: 26px;
+	}
+
+	.contacto form input, .contacto form textarea {
+		width: 65%;
+	}
+	.contacto form input[type="submit"] {
+		width: 40%;
+	}
+
+}

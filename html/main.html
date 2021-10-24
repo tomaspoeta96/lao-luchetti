@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lao Luchetti</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<script src="../js/jquery-3.2.1.js"></script>
+</head>
+<body>
+	<header class="header">
+		<img src="../imgs/logo.png" alt="" class="header-img">
+		<img src="../imgs/bars.svg" alt="" id="header-bars">
+		<div class="header-bar">
+			<a href="" class="header-link" id="h-link1">Destacados</a>
+			<a href="" class="header-link">Emprendimientos</a>
+			<a href="" class="header-link">Nosotros</a>
+			<a href="" class="header-link" id="last"><p>Preguntas Frecuentes</p></a>
+			<a href="" class="header-busqueda">Consultas</a>
+			<a href="" class="header-icon-link"><img src="../imgs/insta.svg" alt="" class="header-icon"></a>
+			<a href="" class="header-icon-link"><img src="../imgs/youtube.svg" alt="" class="header-icon"></a>
+			<a href="" class="header-icon-link"><img src="../imgs/mail.svg" alt="" class="header-icon"></a>
+			<select class="header-language-list" onchange="location = this.value;">
+				<option value="">EN</option>
+				<option value="">ESP</option>				
+			</select>								
+		</div>
+	</header>
+	<section class="properties">
+		<h1 class="properties-title">Encontrá eso que estás buscando</h1>
+		<form method="POST">
+			<ul class="properties-list">
+				<li class="properties-list-element">
+					<select name="" class="properties-list-element-select">
+						<option disabled selected>Operación</option>
+						<option value="">Alquiler</option>
+						<option value="">Venta</option>
+					</select>
+				</li>
+				<li class="properties-list-element">
+					<select name="" class="properties-list-element-select">
+						<option disabled selected>Barrio</option>
+					</select>
+				</li>
+				<li class="properties-list-element">
+					<select name="" class="properties-list-element-select">
+						<option disabled selected>Propiedad</option>
+					</select>
+				</li>
+				<li class="properties-list-element">
+					<div class="quantity properties-list-element-select">
+ 						<input type="number" min="1" max="15" step="1" placeholder="Ambientes" id="amb">
+					</div>
+				</li>
+				<li class="properties-list-element">
+					<select name="" class="properties-list-element-select">
+						<option disabled selected>Tipo de Moneda</option>
+					</select>
+				</li>
+				<li class="properties-list-element">
+					<select name="" class="properties-list-element-select">
+						<option disabled selected>Precio Maximo</option>
+					</select>
+				</li>
+				<input type="submit" name="" value="BUSCAR" class="properties-list-element-submit">
+				<a href="" class="properties-link">o Busqueda avanzada</a>
+			</ul>
+		</form>
+	</section>
+	<h1 class="disting_properties-title">Propiedades Destacadas</h1>
+	<section class="disting_properties">
+		<div class="c-slider">
+			<div class="slider">
+				<section class="slider-content">
+					<h3 class="s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+					<img src="../imgs/foto_carrousel1.jpg">
+					<h4 class="s-state_prop">Departamento en alquiler</h4>
+					<p class="s-price_prop">U$D 180.000</p>
+					<p class="s-size_prop">432.00 m<sup>2</sup></p>
+					<p class="s-rooms_prop">-4 dorm.</p>
+					<a href="" class="s-link_prop">Ver más</a>
+				</section>
+				<section class="slider-content">
+					<h3 class="s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+					<img src="../imgs/foto_carrousel1.jpg">
+					<h4 class="s-state_prop">Departamento en alquiler</h4>
+					<p class="s-price_prop">U$D 180.000</p>
+					<p class="s-size_prop">432.00 m<sup>2</sup></p>
+					<p class="s-rooms_prop">-4 dorm.</p>
+					<a href="" class="s-link_prop">Ver más</a>
+				</section>
+				<section class="slider-content">
+					<h3>Villa Urquiza | <span>Av. Santa Fe 1800000</span></h3>
+					<img src="../imgs/foto_carrousel2.jpg">
+					<h4>Departamento en alquiler</h4>
+					<p class="s-price_prop">U$D 180.000</p>
+					<p class="s-size_prop">432.00 m<sup>2</sup></p>
+					<p class="s-rooms_prop">-4 dorm.</p>
+					<a href="" class="s-link_prop">Ver más</a>
+				</section>
+				<section class="slider-content">
+					<h3>Villa Urquiza | <span>Av. Meilan 1800000</span></h3>
+					<img src="../imgs/foto_carrousel3.jpg">
+					<h4>Departamento en alquiler</h4>
+					<p class="s-price_prop">U$D 180.000</p>
+					<p class="s-size_prop">432.00 m<sup>2</sup></p>
+					<p class="s-rooms_prop">4 dorm</p>
+					<a href="" class="s-link_prop">Ver más</a>
+				</section>
+			</div>
+			<div class="btn-prev"><img src="../imgs/flechaI.svg" alt=""></div>
+			<div class="btn-next"><img src="../imgs/flechaD.svg" alt=""></div>
+		</div>
+	</section>
+	<section class="main-emprendimientos">
+		<h1 class="emprendimientos-title">Emprendimientos</h1>
+		<div class="c-slider1">
+			<div class="slider1">
+				<section class="slider1-content">
+					<img src="../imgs/foto_carrousel1.jpg">
+					<div class="emprendimientos-info_container">
+						<div class="btn-prev1"><img src="../imgs/flechaI.svg" alt=""></div>
+						<div class="btn-next1"><img src="../imgs/flechaD.svg" alt=""></div>
+						<h1 class="emprendimientos-address_prop">Edificio El Faro | Nordelta</h1>
+						<p class="emprendimientos-descr-prop">Complejo de departamentos exclusivos a estrenar.</p>
+						<p class="emprendimientos-state-prop">Estado: en fecha</p>
+						<a href="" class="emprendimientos-link-prop">Ver más</a>
+					</div>
+				</section>
+				<section class="slider1-content">
+					<img src="../imgs/foto_carrousel2.jpg">
+					<div class="emprendimientos-info_container">
+						<div class="btn-prev1">&#60</div>
+						<div class="btn-next1">&#62</div>
+						<h1 class="emprendimientos-address_prop">Edificio El Faro | Nordelta</h1>
+						<p class="emprendimientos-descr-prop">Complejo de departamentos exclusivos a estrenar.</p>
+						<p class="emprendimientos-state-prop">Estado: en fecha</p>
+						<a href="" class="emprendimientos-link-prop">Ver más</a>
+					</div>
+				</section>
+				<section class="slider1-content">
+					<img src="../imgs/foto_carrousel3.jpg">
+					<div class="emprendimientos-info_container">
+						<div class="btn-prev1">&#60</div>
+						<div class="btn-next1">&#62</div>
+						<h1 class="emprendimientos-address_prop">Edificio El Faro | Nordelta</h1>
+						<p class="emprendimientos-descr-prop">Complejo de departamentos exclusivos a estrenar.</p>
+						<p class="emprendimientos-state-prop">Estado: en fecha</p>
+						<a href="" class="emprendimientos-link-prop">Ver más</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+	<aside class="side-bar">
+		<a href="" class="side-bar-icon-link"><img src="../imgs/insta.svg" alt="" class="side-bar-icon"></a>
+		<a href="" class="side-bar-icon-link"><img src="../imgs/youtube.svg" alt="" class="side-bar-icon"></a>
+		<a href="" class="side-bar-icon-link"><img src="../imgs/mail.svg" alt="" class="side-bar-icon"></a>
+	</aside>
+	<footer class="footer">
+		<img src="../imgs/logo.svg" alt="" class="footer-img">
+		<article class="footer-ventas">
+			<h1 class="footer-ventas-title">ventas</h1>
+			<p>(011)4553-4433</p>
+			<p>(011)4555-7279</p>
+			<p>info@lao-luchetti.com.ar</p>
+		</article>
+		<article class="footer-oficinas">
+			<h1 class="footer-oficinas-title">oficinas</h1>
+			<p>La Pampa 3388 - P.Alta</p>
+			<p>CABA (C143OBXB)</p>
+			<p>Buenos Aires, Argentina</p>
+		</article>
+		<p class="copyright">©Copyright 2017. Todos los derechos reservados. Diseño Web creado por Blitzden.</p>
+	</footer>
+	<script src="../js/slid.js"></script><!--1-->
+	<script src="../js/slid1.js"></script><!--2-->
+	<script src="../js/toggle-header.js"></script><!--3-->
+	<script src="../js/inputNumber.js"></script><!--4-->
+	<script src="../js/prop_contacto.js"></script><!--3-->
+</body>
+</html>

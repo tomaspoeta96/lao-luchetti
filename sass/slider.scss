@@ -1,0 +1,137 @@
+$azul: #262262;
+$celeste: #0091D0;
+$celesteClaro: #7BB7E4;
+
+$celu_res: 376px;
+
+
+.c-slider {
+	margin: auto;
+	width: 100%;
+	max-width: 1000px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	width: 300%;/*+100% por cada foto que se agregue, -100% por cada foto que se saque*/
+	background: $azul; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2A5C94,#29427B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2A5C94,#29427B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2A5C94,#29427B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2A5C94,#29427B); /* Standard syntax */
+    height: 500px;
+}
+.slider section {
+	width: 10%;
+	position: relative;
+	height: 500px;
+	min-width: 350px;
+	margin: auto;
+	@media screen and (max-width: $celu_res){
+		width: 100%;
+		min-width: 0;
+	}
+}
+.slider h3{
+	text-align: center;
+	margin-top: 40px;
+	height: 40px;
+	color: white;
+	font-family: roboto_regular;
+	font-size: 22px;
+	@media screen and (max-width: $celu_res){
+		font-size: 18px;
+	}
+}
+.slider span{
+	font-family: roboto_thin;
+}
+
+.slider img, .slider video {
+	margin-top: 20px;
+	margin-left: 2.5%;
+	width: 95%;
+	height: 250px;
+	max-width: 350px;
+	padding-bottom: 130px;
+	background-color: white;
+}
+
+.slider h4{
+	text-align: center;
+	background-color: $celeste;
+	font-family: roboto_thin;
+	font-size: 19px;
+	position: absolute;
+	margin-top: -150px;
+	left: 9.5%;
+	z-index: 10;
+	width: 80%;
+	padding: 10px 0;
+	color: white;
+	border-radius: 12px;
+	@media screen and (max-width: $celu_res){
+		width: 90%;
+		left: 5%;
+		font-size: 18px;
+	}
+}
+
+.slider p{
+	color: $azul;
+	font-family: roboto_regular;
+}
+.s-price_prop{
+	font-family: roboto_regular;
+	margin-top: -90px;
+	font-size: 22px;
+	text-align: center;
+}
+.s-size_prop,.s-rooms_prop{
+	font-family: roboto_regular;
+	width: 49.1%;
+	display: inline-block;
+}
+.s-size_prop{
+	text-align: right;
+}
+.s-rooms_prop{
+	text-align: left;
+}
+.s-link_prop{
+	color: grey;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	text-decoration: none;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.btn-prev, .btn-next {
+	width: 30px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	font-family:  monospace;
+	text-align: center;
+	top: 50%;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.btn-next {
+	right: 0px;
+}
+
+
+
+/*end slider*/

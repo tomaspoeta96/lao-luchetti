@@ -1,0 +1,71 @@
+$celu_res: 376px;
+$celu_res1: 576px;
+
+.footer{
+	color: white;
+	font-family: roboto_regular;
+	position: relative;
+	width: 100%;
+	background-color: $azul;
+	background: -webkit-linear-gradient(#2A5C94,#29427B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2A5C94,#29427B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2A5C94,#29427B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2A5C94,#29427B); /* Standard syntax */
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.footer-img{
+	width: 15%;
+	min-width: 70px;
+	margin-left: 2%;
+	margin-top: 15px;
+	float: left;
+	@media screen and (max-width: 350px){
+		position: absolute;
+	}
+}
+.footer-oficinas,.footer-ventas{
+	margin-top: 40px;
+	width: 15%;
+	min-width: 180px;
+	margin-right: 3%;
+	float: right;
+	@media screen and (max-width: $celu_res1){
+		min-width: 120px;
+	}
+	@media screen and (max-width: 350px){
+		margin-right: 1%;
+		margin-top: 90px;
+	}
+}
+
+.footer-ventas{
+	@media screen and (max-width: $celu_res){
+		margin-right: -1%;
+	}
+}
+.footer-oficinas{
+	border-right: solid white 1px;
+}
+
+.footer-oficinas-title, .footer-ventas-title{
+	font-size: 16px;
+	text-transform: uppercase;
+	@media screen and (max-width: $celu_res){
+		font-size: 12px;
+	}
+}
+.footer p{
+	font-size: 14px;
+	@media screen and (max-width: $celu_res){
+		font-size: 10px;
+	}
+}
+
+.footer .copyright{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 10px;
+}

@@ -1,0 +1,165 @@
+@import 'fonts.scss';
+@import 'header.scss';
+@import 'sidebar.scss';
+@import 'footer.scss';
+
+*  {
+	padding: 0;
+	margin: 0;
+}
+
+
+.emprendimientos {
+	/*background-image: url('../imgs/tubusqueda.jpg');*/
+	margin-top: 80px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.emprendimientos-title {
+	font-size: 28px;
+	padding-bottom: 10px;
+	color: $celeste;
+	font-family: roboto_bold;
+	padding: 30px 0 0 5%;
+	background-color: white;
+	margin-bottom: 0;
+	@media screen and (max-width: $celu_res) {
+		font-size: 20px;
+	}
+}
+
+.emprendimiento, .emprendimiento--hidden {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	margin: 30px 0;
+}
+.emprendimiento-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.emprendimiento-info {
+	z-index: 1;
+	background-color: $celeste;
+	background-color: rgba($celeste, 0.7);
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 15px 0;
+}
+
+.emprendimiento-info-name  {
+	font-family: roboto_regular;
+	text-align: center;
+	margin-bottom: 10px;
+	width: 98%;
+}
+.emprendimiento-info-description  {
+	text-align: center;
+	font-family: roboto_regular;
+	width: 98%;
+}
+.emprendimiento-info-status  {
+	font-family: roboto;
+	text-align: center;
+	width: 98%;
+}
+
+
+.emprendimiento-tag {
+	background-color: #fff594;
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+	color: $azul;
+	font-family: roboto_bold;
+	font-size: 12px;
+	text-align: center;
+	left: 5%;
+	top: -65px;
+	position: absolute;
+	-ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Safari */
+    transform: rotate(-25deg);
+
+    @media only screen and (min-width: 415px) and (max-width: 795px){
+    	top: -50px;
+    }
+
+    @media only screen and (min-width: 796px) and (max-width: 935px){
+    	top: -50px;
+    	left: 10%;
+    }
+    @media only screen and (min-width: 936px){
+    	top: -50px;
+    	left: 15%;
+    	width: 100px;
+		height: 100px;
+		font-size: initial;
+    }
+}
+
+#taginit {
+	margin-top: 18px;
+}
+.emprendimiento-tag-line {
+	width: 20px;
+	height: 3px;
+	background-color: $azul;
+	margin: 5px auto;
+}
+
+
+
+
+
+
+.emprendimiento-info-vermas{
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 10px;
+	font-family: roboto_thin;
+	text-align: center;
+	background-color: $azul;
+	height: 30px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.emprendimientos-vermas{
+	text-align: center;
+	margin: auto;
+	background-color: $azul;
+	height: 45px;
+	color: white;
+	font-family: roboto_thin;
+	font-size: 20px;
+	line-height: 45px;
+	max-width: 160px;
+	cursor: pointer;
+	margin-bottom: 30px;
+	transition: background-color .125s;
+}
+
+.emprendimientos-vermas:hover{
+	background-color: white;
+	color: $azul;
+}
+
+
+.emprendimiento--hidden{
+	display: none;
+}
+
+@media only screen and (min-width: 414px){
+	.emprendimiento, .emprendimiento--hidden{
+		height: 500px;
+	}	
+}

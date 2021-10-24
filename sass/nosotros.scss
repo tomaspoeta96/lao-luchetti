@@ -1,0 +1,144 @@
+@import 'fonts.scss';
+@import 'header.scss';
+@import 'sidebar.scss';
+@import 'footer.scss';
+
+*  {
+	padding: 0;
+	margin: 0;
+}
+
+.nosotros {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	width: 100%;
+	display: block;
+}
+
+
+.nosotros-title, .staff-title {
+	font-size: 28px;
+	padding-bottom: 10px;
+	color: $celeste;
+	font-family: roboto_bold;
+	padding: 30px 0 0 5%;
+	background-color: white;
+	margin-bottom: 0;
+	@media screen and (max-width: $celu_res) {
+		font-size: 20px;
+	}
+}
+
+.staff-title{
+	color: $azul;
+	padding: 0px 0px 20px 5%;
+}
+
+.nosotros-subtitle{
+	font-family: roboto_thin;
+	color: $azul;
+	margin-left: 5%;
+}
+
+.about_us {
+	width: 100%;
+	padding: 20px 0;
+	background-image: url("../imgs/nosotros.jpg");
+	background-size: 100% 100%;
+}
+
+.about_us-title {
+	width: 70%;
+	color: white;
+	font-family: roboto;
+	margin-top: 20px;
+	margin-left: 5%;
+}
+
+.about_us-paragraph {
+	margin: 20px 5% 0;
+	width: 60%;
+	color: white;
+	font-family: roboto_light;
+	min-height: 120px;
+}
+
+.donde_estamos {
+	z-index: 10;
+	margin-top: 20px;
+	color: $azul;
+	font-family: roboto;
+}
+.donde_estamos-title {
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+.donde_estamos-info {
+	margin-left: 5%;
+	font-family: roboto_light;
+}
+
+#map {
+	margin: auto;
+	margin-top: 20px;
+	height: 400px;
+	width: 100%;
+}
+
+.staff {
+	margin-bottom: 40px;
+	width: 90%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 0 0 5%;
+}
+
+.staff-individual {
+	width: 30%;
+	min-width: 200px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.staff-individual-img {	
+	width: 100%;
+	z-index: -1;
+}
+
+.staff-individual-name {
+	display: block;
+	background-color: $azul;
+	width: 70%;
+	color: white;
+	text-align: center;
+	margin: auto;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	min-height: 30px;
+	border-radius: 10px;
+	padding: 5px 0 2px 0;
+	font-family: roboto_regular;
+
+}
+.staff-individual-role{
+	text-align: center;
+	font-family: roboto_bold;
+	color: $azul;
+}
+.staff-individual-description {
+	color: $azul;
+	font-family: roboto_regular;
+}
+
+
+
+@media only screen and (min-width: 415px) {
+	.nosotros-title, .about_us-title, .donde_estamos-title{
+		font-size: 32px;
+	}
+	.nosotros-subtitle {
+		font-size: 24px;
+	}
+}

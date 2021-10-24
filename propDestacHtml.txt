@@ -1,0 +1,56 @@
+
+<!--Aca removi el cuadrado celeste y agregue los triangulos-->
+<section class="destac">
+		<section class="destac-slider-content">
+			<h3 class="destac-s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+			<div class="destac-triangle">
+				<img src="../imgs/foto_carrousel1.jpg">	
+				<div class="triangle triangle-0">
+					<div class="triangle-line"></div>
+					<p class="triangle-content" id="sold1">TODO</p>
+					<p class="triangle-content" id="sold2">VENDIDO</p>
+				</div>
+			</div>		
+			<div class="destac-s-background">
+				<p class="destac-s-price_prop">U$D 180.000</p>
+				<p class="destac-s-size_prop">432.00 m<sup>2</sup></p>
+				<p class="destac-s-rooms_prop">-4 dorm.</p>
+				<a href="" class="destac-s-link_prop">Ver más</a>
+			</div>
+		</section>
+		<section class="destac-slider-content">
+			<h3 class="destac-s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+			<div class="destac-triangle">
+				<img src="../imgs/foto_carrousel1.jpg">	
+				<div class="triangle triangle-0">
+					<div class="triangle-line"></div>
+					<p class="triangle-content" id="lastu1">ULTIMAS</p>
+					<p class="triangle-content" id="lastu2">UNIDADES</p>
+				</div>
+			</div>		
+			<div class="destac-s-background">
+				<p class="destac-s-price_prop">U$D 180.000</p>
+				<p class="destac-s-size_prop">432.00 m<sup>2</sup></p>
+				<p class="destac-s-rooms_prop">-4 dorm.</p>
+				<a href="" class="destac-s-link_prop">Ver más</a>
+			</div>
+		</section>
+
+		<section class="destac-slider-content">
+			<h3 class="destac-s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+			<div class="destac-triangle">
+				<img src="../imgs/foto_carrousel1.jpg">	
+				<div class="triangle triangle-0">
+					<div class="triangle-line"></div>
+					<p class="triangle-content" id="reserv1">RESERVADO</p>
+				</div>
+			</div>		
+			<div class="destac-s-background">
+				<p class="destac-s-price_prop">U$D 180.000</p>
+				<p class="destac-s-size_prop">432.00 m<sup>2</sup></p>
+				<p class="destac-s-rooms_prop">-4 dorm.</p>
+				<a href="" class="destac-s-link_prop">Ver más</a>
+			</div>
+		</section>
+		
+	</section>

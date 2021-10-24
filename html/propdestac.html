@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/propdestac.css">
+	<script src="../js/jquery-3.2.1.js"></script>
+</head>
+<body>
+	<div id="body"><!--Agrego esta div _cierra en la linea 194 //modifique 7-10-17 23:24-->
+	<header class="header">
+		<img src="../imgs/logo.png" alt="" class="header-img">
+		<img src="../imgs/bars.svg" alt="" id="header-bars">
+		<div class="header-bar">
+			<a href="" class="header-link" id="h-link1">Destacados</a>
+			<a href="" class="header-link">Emprendimientos</a>
+			<a href="" class="header-link">Nosotros</a>
+			<a href="" class="header-link" id="last">Preguntas Frecuentes</a>
+			<a href="" class="header-busqueda">Consultas</a>
+			<a href="" class="header-icon-link"><img src="../imgs/insta.svg" alt="" class="header-icon"></a>
+			<a href="" class="header-icon-link"><img src="../imgs/youtube.svg" alt="" class="header-icon"></a>
+			<a href="" class="header-icon-link"><img src="../imgs/mail.svg" alt="" class="header-icon"></a>
+			<select class="header-language-list" onchange="location = this.value;">
+				<option value="">EN</option>
+				<option value="">ESP</option>				
+			</select>				
+		</div>
+	</header>
+	<section class="propiedades">
+			<h1 class="propiedades-title">Propiedades Destacadas</h1>
+			<h2 class="propiedades-subtitle">Resultados de tu búsqueda</h2>
+			<form class="propiedades-filters">
+				<input type="submit" name="" value="Borrar filtros" class="propiedades-filters-delfil">
+				<label class="filters-label">$100000 a $1000000 en U$D <input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Belgrano C<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Venta<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Departamento<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">A estrenar<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Ambientes: 3<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Expensas: Hasta $2000<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Dormitorios: 3<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Baños: 2<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Cocheras: 1 o si<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Superficie Total: 400m<sup>2</sup><input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Servicios: si<input type="submit" name="" value="x" class="filters-label-x"></label>
+				<label class="filters-label">Generales: que es esto?<input type="submit" name="" value="x" class="filters-label-x"></label>
+			</form>
+		</section>
+		<section class="filtering">
+			<div class="filtering-container">
+				<form>
+					<h1 class="filtering-title">Filtrar por</h1>
+					<img src="../imgs/x.svg" alt="" class="close_filtering" id="cross">
+					<img src="../imgs/down-arrow.svg" alt="" class="close_filtering" id="bars">
+					<div class="filtering-zone">
+						<label>Precio:<br> de <input type="textarea" name="" value="" class="filtering-price"> a <input type="textarea" name="" class="filtering-price"> 
+							<select class="filtering-select filtering-select--price">
+								<option value=""></option>
+								<option value="U$D">U$D</option>
+								<option value="ARS">ARS</option>
+							</select>
+						</label>
+						<p>Ubicación: </p>
+						<select class="filtering-select">
+							<option value=""></option>	
+							<option value="BelgranoC">Belgrano C</option>
+							<option value="Palermo">Palermo</option>				
+						</select>
+						<p>Acción: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="Venta">Venta</option>
+							<option value="Alquilar">Alquiler</option>				
+						</select>
+						<p>Unidad: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="Departamento">Departamento</option>
+							<option value="Casa">Casa</option>				
+						</select>
+						<p>Antigüedad: </p>
+						<select class="filtering-select">
+							<option value="estrenar">A estrenar</option>
+							<option value="1ano">1 año</option>				
+						</select>
+						<p>Ambientes: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>				
+						</select>
+						<p>Expensas: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="0">$0 a $2000</option>
+							<option value="1">$2000 a $4000</option>
+							<option value="2">$4000 a $6000</option>			
+						</select>
+						<p>Cantidad de dormitorios: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="2">2</option>
+							<option value="3">3</option>				
+						</select>
+						<p>Cantidad de baños: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="2">2</option>
+							<option value="3">3</option>				
+						</select>
+						<p>Cocheras: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="si">Si</option>
+							<option value="no">No</option>				
+						</select>
+						<p>Superficie total: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="200">200m<sup>2</sup></option>
+							<option value="300">300m<sup>2</sup></option>
+							<option value="400">400m<sup>2</sup></option>		
+						</select>
+						<p>Servicios: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="si">Si</option>
+							<option value="No">No</option>				
+						</select>
+						<p>Generales: </p>
+						<select class="filtering-select">
+							<option value=""></option>
+							<option value="nose">nose</option>
+							<option value="Nose">nose</option>				
+						</select>
+					</div>
+				</form>
+			</div>
+		</section>
+	</section>
+	<section class="destac">
+		<section class="destac-slider-content">
+			<h3 class="destac-s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+			<div class="destac-triangle">
+				<img src="../imgs/foto_carrousel1.jpg">	
+				<div class="triangle triangle-0">
+					<div class="triangle-line"></div>
+					<p class="triangle-content" id="sold1">TODO</p>
+					<p class="triangle-content" id="sold2">VENDIDO</p>
+				</div>
+			</div>		
+			<div class="destac-s-background">
+				<p class="destac-s-price_prop">U$D 180.000</p>
+				<p class="destac-s-size_prop">432.00 m<sup>2</sup></p>
+				<p class="destac-s-rooms_prop">-4 dorm.</p>
+				<a href="" class="destac-s-link_prop">Ver más</a>
+			</div>
+		</section>
+		<section class="destac-slider-content">
+			<h3 class="destac-s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+			<div class="destac-triangle">
+				<img src="../imgs/foto_carrousel1.jpg">	
+				<div class="triangle triangle-0">
+					<div class="triangle-line"></div>
+					<p class="triangle-content" id="lastu1">ULTIMAS</p>
+					<p class="triangle-content" id="lastu2">UNIDADES</p>
+				</div>
+			</div>		
+			<div class="destac-s-background">
+				<p class="destac-s-price_prop">U$D 180.000</p>
+				<p class="destac-s-size_prop">432.00 m<sup>2</sup></p>
+				<p class="destac-s-rooms_prop">-4 dorm.</p>
+				<a href="" class="destac-s-link_prop">Ver más</a>
+			</div>
+		</section>
+
+		<section class="destac-slider-content">
+			<h3 class="destac-s-address_prop">Belgrano | <span>Av. Meilan 1800</span></h3>
+			<div class="destac-triangle">
+				<img src="../imgs/foto_carrousel1.jpg">	
+				<div class="triangle triangle-0">
+					<div class="triangle-line"></div>
+					<p class="triangle-content" id="reserv1">RESERVADO</p>
+				</div>
+			</div>		
+			<div class="destac-s-background">
+				<p class="destac-s-price_prop">U$D 180.000</p>
+				<p class="destac-s-size_prop">432.00 m<sup>2</sup></p>
+				<p class="destac-s-rooms_prop">-4 dorm.</p>
+				<a href="" class="destac-s-link_prop">Ver más</a>
+			</div>
+		</section>
+		
+	</section>
+	<aside class="side-bar">
+		<a href="" class="side-bar-icon-link"><img src="../imgs/insta.svg" alt="" class="side-bar-icon"></a>
+		<a href="" class="side-bar-icon-link"><img src="../imgs/youtube.svg" alt="" class="side-bar-icon"></a>
+		<a href="" class="side-bar-icon-link"><img src="../imgs/mail.svg" alt="" class="side-bar-icon"></a>
+	</aside>
+	<footer class="footer">
+		<img src="../imgs/logo.svg" alt="" class="footer-img">
+		<article class="footer-ventas">
+			<h1 class="footer-ventas-title">ventas</h1>
+			<p>(011)4553-4433</p>
+			<p>(011)4555-7279</p>
+			<p>info@lao-luchetti.com.ar</p>
+		</article>
+		<article class="footer-oficinas">
+			<h1 class="footer-oficinas-title">oficinas</h1>
+			<p>La Pampa 3388 - P.Alta</p>
+			<p>CABA (C143OBXB)</p>
+			<p>Buenos Aires, Argentina</p>
+		</article>
+		<p class="copyright">©Copyright 2017. Todos los derechos reservados. Diseño Web creado por Blitzden.</p>
+	</footer>
+	<script src="../js/toggle-header.js"></script><!--1-->
+	<script src="../js/togglefiltros.js"></script><!---->
+	<script type="text/javascript" src="../js/fill_inputs.js"></script><!---->
+	</div>
+</body>
+
+</html>

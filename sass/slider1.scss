@@ -1,0 +1,106 @@
+$azul: #262262;
+$celeste: #0091D0;
+$celesteClaro: #7BB7E4;
+
+$celu_res: 376px;
+$celu_res1: 576px;
+
+
+.c-slider1 {
+	margin: auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider1 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	width: 300%;/*+100% por cada foto que se agregue, -100% por cada foto que se saque*/
+    height: 500px;
+}
+.slider1 section {
+	width: 100%;
+	position: relative;
+}
+
+.slider1 img, .slider1 video {
+	width: 100%;
+	height: 100%;
+}
+.btn-prev1, .btn-next1 {
+	width: 30px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	font-family:  monospace;
+	text-align: center;
+	top: 25px;
+	z-index: 1;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.btn-prev1{
+	left: 20%;
+	@media screen and (max-width: $celu_res1){
+		left: 0;
+	}
+}
+
+.btn-next1 {
+	right: 20%;
+	@media screen and (max-width: $celu_res1){
+		right: 0;
+	}
+}
+
+.emprendimientos-info_container{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	background-color: rgba($celeste, 0.5);
+	bottom: 0;
+	padding: 30px 0;
+}
+.emprendimientos-address_prop{
+	color: white;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	font-family: roboto_light;
+}
+.emprendimientos-descr-prop,.emprendimientos-state-prop{
+	color: white;
+	width: 80%;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	font-family: roboto_regular;
+}
+.emprendimientos-state-prop{
+	font-weight: bold;
+}
+.emprendimientos-link-prop{
+	display: block;
+	margin: auto;
+	background-color: $azul;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: roboto_light;
+	text-decoration: none;
+	font-size: 16px;
+	padding-top: 15px;
+	margin-top: 10px;
+	color: white;
+	width: 30%;
+	height: 30px;
+	min-width: 180px;
+}
+/*end slider*/
